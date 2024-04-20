@@ -46,11 +46,7 @@ while True:
         
         else:
             print("Você não possui saldo suficiente, seu saldo atual é: R$", saldo)
-
-        
-                    
-
-
+                          
     elif opcao == "3":
         print("\n ******* Olá, veja o seu extrato diário *******")
         print("\n Não ocorreram movimentações hoje." if not extrato else extrato)
